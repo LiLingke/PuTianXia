@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_bar_background" >
+
+        <ImageButton
+            android:id="@+id/building_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wb_btn_off_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="发布楼盘"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/lptitle"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="楼盘名称 :     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/lpedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lptitle"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lpjiage1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="均价 :            "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lpjiage2"
+                    android:layout_width="135dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lpjiage1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/lpjiage2"
+                    android:text="(元/平方米)"
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lpkptime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="开盘日期 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lpkptime2"
+                    android:layout_width="150dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lpkptime1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lpjftime1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="交房日期 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lpjftime2"
+                    android:layout_width="150dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lpjftime1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lptype1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="户型 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lptype2"
+                    android:layout_width="150dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lptype1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lpaddress1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="地址 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lpaddress2"
+                    android:layout_width="80dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lpaddress1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lpaddress2"
+                    android:text=" 省  "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/lpaddress3"
+                    android:layout_width="80dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/textview01"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lpaddress3"
+                    android:text="市     "
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lplabel1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="标签:     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/lplabel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/lplabel1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/lpdescribe1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:text="楼盘介绍:     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/lpdescribe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dip"
+                    android:layout_toRightOf="@+id/lpdescribe1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <Button
+                    android:id="@+id/btreset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="重置" />
+
+                <Button
+                    android:id="@+id/btconfirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btreset"
+                    android:text="确定" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

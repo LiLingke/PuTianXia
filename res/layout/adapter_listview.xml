@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D4D4D4"
+        >
+        <TextView 
+            android:id="@+id/adapter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:layout_toLeftOf="@+id/adapter_gengduo"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView 
+            android:id="@+id/adapter_gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="更多>>" 
+            />
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/adapter_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        
+        android:divider="#f0f0f0"
+        ></ListView>
+		
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuTianXia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="fblp">发布楼盘</string>
+	<string name="fbfy">发布房源</string>
+	<string name="fbpy">发布铺源</string>
+	<string name="fbzy">发布资源</string>
+	<string name="fbxq">发布需求</string>
+	<string name="fyxq">房源需求</string>
+	<string name="pyxq">铺源需求</string>
+	<string name="login">登录</string>
+	<string name="register">注册</string>
+		 <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_normal">下拉或点击以查看更多</string>
+    <string name="xlistview_header_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载……</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    
+    <string name="title_activity_select_picture">SelectPictureActivity</string>
+    <string name="dir_all_pictures">/所有图片</string>
+    <string name="complete">完成</string>
+    <string name="chose_at_most">最多选择</string>
+    <string name="sheet">张</string>
+
+    <string name="picture">图片</string>
+    <string name="all_picture">所有图片</string>
+</resources>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.putianxia.view.NoScrollViewPager
+        android:id="@+id/main_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+    </com.putianxia.view.NoScrollViewPager>
+
+    <include layout="@layout/activity_bottom" />
+
+</LinearLayout>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_bar_background" >
+
+        <ImageButton
+            android:id="@+id/store_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wb_btn_off_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="发布铺源"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pytitle1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="铺源标题 :     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/pyedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pytitle1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/pyarea1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="面积 :            "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyarea2"
+                    android:layout_width="150dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pyarea1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/pyarea2"
+                    android:text="(平方米)"
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/pyactualarea1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="实际使用面积 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyactualarea2"
+                    android:layout_width="150dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pyactualarea1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/pyactualarea2"
+                    android:text="(平方米)"
+                    android:textSize="14dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:id="@+id/pyrent1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="租金 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyrent2"
+                    android:layout_width="150dp"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pyrent1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/pyrent2"
+                    android:text="(元/月)"
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pystaltype1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="出售类型 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pystaltype2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pystaltype1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pycondition1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="现状 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pycondition2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pycondition1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pyfloor1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="楼层 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/textview01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/pyfloor1"
+                    android:text="第  "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyfloor2"
+                    android:layout_width="60dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/textview01"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/pyfloor2"
+                    android:text="层     "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/textview03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textview02"
+                    android:text="共   "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyfloor3"
+                    android:layout_width="60dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/textview03"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/pyfloor3"
+                    android:text="层     "
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pybusiness1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="经营范围 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pybusiness2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pybusiness1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pyaddress1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="地址 : "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyaddress2"
+                    android:layout_width="80dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pyaddress1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/pyaddress2"
+                    android:text=" 省  "
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/pyaddress3"
+                    android:layout_width="80dip"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/textview05"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:drawableRight="@drawable/icon_down"
+                    android:paddingRight="8dip" />
+
+                <TextView
+                    android:id="@+id/textview06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/pyaddress3"
+                    android:text="市     "
+                    android:textSize="16dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pylabel1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="铺源标题 :     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/pylabel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_toRightOf="@+id/pylabel1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <TextView
+                    android:id="@+id/pydescribe1"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="8dip"
+                    android:text="铺源介绍:     "
+                    android:textSize="16dip" />
+
+                <EditText
+                    android:id="@+id/pydescribe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dip"
+                    android:layout_toRightOf="@+id/pydescribe1"
+                    android:background="@drawable/shape_help_category_tv_bg"
+                    android:paddingRight="8dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dip" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="添加图片"
+                    android:textSize="20dip" />
+
+                <GridView
+                    android:id="@+id/sgridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:horizontalSpacing="2dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="3"
+                    android:scrollbars="none"
+                    android:verticalSpacing="5dp" >
+                </GridView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <Button
+                    android:id="@+id/btreset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="重置" />
+
+                <Button
+                    android:id="@+id/btconfirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btreset"
+                    android:text="确定" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

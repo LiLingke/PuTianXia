@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+     android:background="#f0f0f0"
+    android:orientation="vertical" >
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/fragment2_view"
+        
+        />
+<LinearLayout 
+    android:id="@+id/fragment2_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    
+    android:orientation="vertical"
+    >
+    
+    <TextView 
+        android:id="@+id/fabu_ziyuan"
+        android:text="@string/fbzy"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#CFCFCF"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+    
+     <TextView 
+         android:id="@+id/fabu_xuqiu"
+        android:layout_marginTop="20dp"
+        android:text="@string/fbxq"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#CFCFCF"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+</LinearLayout>
+</LinearLayout>

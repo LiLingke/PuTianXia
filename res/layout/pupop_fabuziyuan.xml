@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    	android:background="#44000000"
+    
+    android:orientation="vertical" >
+ 
+  
+      
+    <LinearLayout
+        android:id="@+id/pupop_lin"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+         >
+         <TextView 
+             android:layout_marginBottom="10dp"
+            android:id="@+id/pupop_fbpy"
+          
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/fbpy"
+             android:alpha="0.9"
+            android:gravity="center"
+            android:background="@drawable/pupopview"
+            android:textSize="20sp"
+            />
+
+         <TextView
+             android:id="@+id/pupop_fbfy"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:alpha="0.9"
+             android:background="@drawable/pupopview"
+             android:gravity="center"
+             android:paddingBottom="10dp"
+             android:paddingTop="10dp"
+             android:text="@string/fbfy"
+             android:textSize="20sp" />
+        
+          <TextView 
+              android:layout_marginTop="10dp"
+            android:id="@+id/pupop_fblp"
+            
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" 
+            android:text="@string/fblp"
+             android:alpha="0.9"
+            android:gravity="center"
+            android:background="@drawable/pupopview"
+            android:textSize="20sp"
+            />
+        
+        </LinearLayout>
+
+
+</LinearLayout>
