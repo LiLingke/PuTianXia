@@ -70,7 +70,7 @@ public class Main_fragment1 extends Fragment implements OnClickListener {
 	List<Integer> listint = new ArrayList<Integer>();
 	ArrayList<String> banner_list = new ArrayList<String>();
 	ArrayList<String> banner_url = new ArrayList<String>();
-
+    private String path = "";
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -190,6 +190,9 @@ public class Main_fragment1 extends Fragment implements OnClickListener {
 				// listint.add(position);
 				// fixListViewHeights(listview);
 				// }
+				
+				
+				
 				listview.setOnItemClickListener(new OnItemClickListener() {
 
 					@Override
